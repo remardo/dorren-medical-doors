@@ -55,6 +55,8 @@
        target: 'esnext',
        outDir: 'dist',
      },
+     publicDir: 'public',
+     assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.svg', '**/*.gif'],
     server: {
       port: 3000,
       open: true,
