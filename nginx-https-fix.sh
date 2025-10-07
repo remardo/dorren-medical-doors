@@ -8,14 +8,28 @@ DOMAIN="meddoors.dorren.ru"
 echo "🔧 Полное исправление nginx для HTTPS"
 echo "====================================="
 
-# Остановка nginx
-echo "🛑 Остановка nginx..."
-sudo systemctl stop nginx
+# Проверка и установка nginx
+echo "📦 Проверка и установка nginx..."
+if ! command -v nginx &> /dev/null; then
+    echo "Установка nginx..."
+    sudo apt update -qq
+    sudo apt install -y nginx -qq
+else
+    echo "✅ Nginx уже установлен"
+    sudo systemctl stop nginx
+fi
+
+# Создание необходимых директорий
+echo "📁 Создание директорий..."
+sudo mkdir -p /etc/nginx/sites-available
+sudo mkdir -p /etc/nginx/sites-enabled
+sudo mkdir -p /var/www/medical-doors/dist
 
 # Удаление старых конфигураций
 echo "🗑️ Очистка старых конфигураций..."
-sudo rm -f /etc/nginx/sites-available/*
-sudo rm -f /etc/nginx/sites-enabled/*
+sudo rm -f /etc/nginx/sites-available/meddoors.dorren.ru
+sudo rm -f /etc/nginx/sites-enabled/meddoors.dorren.ru
+sudo rm -f /etc/nginx/sites-enabled/default
 
 # Создание новой конфигурации
 echo "⚙️ Создание HTTPS конфигурации..."
