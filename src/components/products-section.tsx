@@ -9,28 +9,28 @@ const products = [
     description: "Специальные двери для палат интенсивной терапии, реанимации и обычных палат",
     features: ["Антибактериальное покрытие", "Простота дезинфекции", "Бесшумная работа"],
     icon: DoorOpen,
-    image: "/src/assets/images/dorren_medical_door_palata_sm.jpg"
+    image: "/assets/images/dorren_medical_door_palata_sm.jpg"
   },
   {
     title: "Двери для кабинетов",
     description: "Двери для врачебных кабинетов, процедурных и диагностических помещений",
     features: ["Звукоизоляция", "Стойкость к химии", "Гигиеничность"],
     icon: Stethoscope,
-    image: "/src/assets/images/dorren_medical_door_cabinet_sm.jpg"
+    image: "/assets/images/dorren_medical_door_cabinet_sm.jpg"
   },
   {
     title: "Рентгенозащитные двери",
     description: "Двери с защитой от рентгеновского излучения для диагностических кабинетов",
     features: ["Свинцовый эквивалент до 4мм", "Автоматическое управление", "Сигнализация"],
     icon: Radiation,
-    image: "/src/assets/images/dorren_medical_door_rentgen_sm.jpg"
+    image: "/assets/images/dorren_medical_door_rentgen_sm.jpg"
   },
   {
     title: "Противопожарные двери",
     description: "Огнестойкие двери для обеспечения пожарной безопасности медучреждений",
     features: ["Предел огнестойкости EI-60", "Самозакрывание", "Дымонепроницаемость"],
     icon: Flame,
-    image: "/src/assets/images/dorren_medical_door_fire_sm.jpg"
+    image: "/assets/images/dorren_medical_door_fire_sm.jpg"
   }
 ];
 
