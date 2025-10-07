@@ -28,7 +28,7 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-cyan-400 flex-shrink-0" />
                 <div>
-                  <div className="text-white">+7 (495) 123-45-67</div>
+                  <div className="text-white">+7 (495) 350-13-79</div>
                   <div className="text-gray-400 text-sm">Отдел продаж</div>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-cyan-400 flex-shrink-0" />
                 <div>
-                  <div className="text-white">info@dorren.ru</div>
+                  <div className="text-white">sales@dorren.ru</div>
                   <div className="text-gray-400 text-sm">Общие вопросы</div>
                 </div>
               </div>
@@ -44,7 +44,7 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-cyan-400 flex-shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-white">Москва, ул. Промышленная, 15</div>
+                  <div className="text-white">Чувашия, п. Кугеси, Тепличная, 14</div>
                   <div className="text-gray-400 text-sm">Офис и производство</div>
                 </div>
               </div>
@@ -58,25 +58,22 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <Clock className="h-5 w-5 text-cyan-400 flex-shrink-0" />
                 <div>
-                  <div className="text-white">Пн-Пт: 9:00 - 18:00</div>
+                  <div className="text-white">Пн-Пт: 8:00 - 17:00</div>
                   <div className="text-gray-400 text-sm">Офис</div>
                 </div>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-cyan-400 flex-shrink-0" />
-                <div>
-                  <div className="text-white">24/7</div>
-                  <div className="text-gray-400 text-sm">Техподдержка</div>
-                </div>
+                
               </div>
             </div>
             
             <div className="mt-6 pt-6 border-t border-gray-800">
               <div className="text-sm text-gray-400">
                 <div>Производство:</div>
-                <div className="text-white">Пн-Пт: 8:00 - 20:00</div>
-                <div className="text-white">Сб: 9:00 - 15:00</div>
+                <div className="text-white">Пн-Пт: 8:00 - 17:00</div>
+                
               </div>
             </div>
           </div>
@@ -114,7 +111,7 @@ export function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 DORREN. Все права защищены.
+              © 2025 DORREN. Все права защищены.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors">

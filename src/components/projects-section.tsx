@@ -5,36 +5,36 @@ import { MapPin, Calendar, Building } from "lucide-react";
 
 const projects = [
   {
-    name: "Городская больница №15",
-    location: "Москва",
-    year: "2024",
-    doors: "120 дверей",
-    types: ["Палаты", "Кабинеты", "Противопожарные"],
-    image: "https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwZG9vcnMlMjBob3NwaXRhbHxlbnwxfHx8fDE3NTc2OTA5OTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-  },
-  {
-    name: "Диагностический центр \"Здоровье\"",
+    name: "<Клиника высоких технологий Белоостров>",
     location: "Санкт-Петербург",
     year: "2024",
-    doors: "45 дверей",
-    types: ["Рентгенозащитные", "Кабинеты"],
-    image: "https://images.unsplash.com/photo-1631507623121-eaaba8d4e7dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjbGluaWMlMjBlbnRyYW5jZXxlbnwxfHx8fDE3NTc2ODcwMzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-  },
-  {
-    name: "Перинатальный центр",
-    location: "Екатеринбург",
-    year: "2023",
     doors: "200 дверей",
-    types: ["Палаты", "Операционные", "Реанимация"],
-    image: "https://images.unsplash.com/photo-1593376063528-72e70ddcb2c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3NwaXRhbCUyMGNvcnJpZG9yJTIwZG9vcnN8ZW58MXx8fHwxNzU3NjkwOTkxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    types: ["Палаты", "Кабинеты", "Противопожарные"],
+    image: "/assets/images/dorren_project_beloostrov.jpg"
   },
   {
-    name: "Онкологический центр",
-    location: "Новосибирск",
-    year: "2023",
-    doors: "80 дверей",
+    name: "Больница имени Н. А. Семашко",
+    location: "Крым",
+    year: "2020",
+    doors: "2500 дверей",
+    types: ["Рентгенозащитные", "Кабинеты","Автоматические" ],
+    image: "/assets/images/dorren_project_semashko.jpg"
+  },
+  {
+    name: "12 инфекционных больниц в Казахстане",
+    location: "Казахстан",
+    year: "2020",
+    doors: "4000 дверей",
+    types: ["Палаты", "Операционные", "Реанимация"],
+    image: "/assets/images/dorren_project_kazahstan.jpg"
+  },
+  {
+    name: "Клиники МедСи",
+    location: "Москва",
+    year: "2020",
+    doors: "1100 дверей",
     types: ["Рентгенозащитные", "Палаты", "Противопожарные"],
-    image: "https://images.unsplash.com/photo-1711343777918-6d395c16e37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwZmFjaWxpdHklMjBpbnRlcmlvcnxlbnwxfHx8fDE3NTc2ODc1Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    image: "/assets/images/dorren_project_medsi.jpg"
   }
 ];
 

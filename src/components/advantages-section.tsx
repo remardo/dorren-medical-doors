@@ -85,7 +85,7 @@ export function AdvantagesSection() {
             </div>
             <div>
               <div className="text-3xl font-light text-cyan-400 mb-2">Под ключ</div>
-              <div className="text-gray-300">Сну что дача объекта </div>
+              <div className="text-gray-300">Сдача объекта </div>
             </div>
           </div>
         </div>
