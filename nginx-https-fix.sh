@@ -8,6 +8,17 @@ DOMAIN="meddoors.dorren.ru"
 echo "🔧 Полное исправление nginx для HTTPS"
 echo "====================================="
 
+# Запрос пароля sudo в начале
+echo "Введите пароль sudo для продолжения:"
+sudo -v
+
+# Проверка sudo прав
+if [ $? -ne 0 ]; then
+    echo "❌ Требуются права sudo"
+    echo "Выполните: sudo -v"
+    exit 1
+fi
+
 # Проверка и установка nginx
 echo "📦 Проверка и установка nginx..."
 if ! command -v nginx &> /dev/null; then
@@ -16,7 +27,7 @@ if ! command -v nginx &> /dev/null; then
     sudo apt install -y nginx -qq
 else
     echo "✅ Nginx уже установлен"
-    sudo systemctl stop nginx
+    sudo systemctl stop nginx 2>/dev/null || echo "nginx не запущен"
 fi
 
 # Создание необходимых директорий
